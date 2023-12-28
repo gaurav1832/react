@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main {
+  background-image: url("../public/background.png");
+  background-color: rgba(255, 255, 255, 0.145);
+  /* Center and scale the image nicely */
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main::before {
+  .element::before {
+    content: ""; /* Required for pseudo-element */
+    position: absolute; /* Position the pseudo-element */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust alpha for opacity */
+    z-index: -1; /* Place it behind the content */
+  }
+}
+/* #password-container {
+  opacity: 1 !important;
+  z-index: 9;
+} */
