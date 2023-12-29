@@ -1,1 +1,1 @@
-<a href="https://moneyconvertor.vercel.app/" target='_blank'> See how much is your worth outside your home!</a>
+<a href="https://vodapass.vercel.app/" target='_blank'> Create your password!</a>
